@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+	<style>
+	body{
+	background-image:url('mad1.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	}
+	h2.style
+{
+color.red
+}
+	</style>
+	</head>
+	<body>
+	<script>
+	function callme()
+	{
+		var a=document.getElementById("first_name").value;
+		console.log(a);
+		var a1=document.getElementById("last_name").value;
+		console.log(a1);
+		var a3=document.getElementById("email").value;
+		console.log(a3);
+		var a4=document.getElementById("mobile").value;
+		console.log(a4);
+		var a5=document.getElementById("gender").value;
+		console.log(a5);
+		for(i-0;i<a5.length;i++)
+		{
+			console.log(i);
+			if(a5[i].checked)
+			{
+				console.log(a[5].value)
+				}
+				}
+		var a6=document.getElementById("address").value;
+		console.log(a6);
+		var a7=document.getElementById("city").value;
+		console.log(a7);
+		var a8=document.getElementById("pincode").value;
+		console.log(a8);
+		var a9=document.getElementById("state").value;
+		console.log(a9);
+		var a10=document.getElementById("countryr").value;
+		console.log(a10);
+		var a11=document.getElementById("hobbies").value;
+		console.log("hi"+a11);
+		for(var checkbox.checked)
+		{
+			if(checkbox.checked)
+			console.log(checkbox.value+" ");
+			}
+		}
+	</script>
+  <div class="form-container">
+    <h2>STUDENT REGISTRATION FORM</h2>
+		<form action="submit_form.php" method="post">
+        <label for="first_name">First Name (max 30 characters a-z and A-Z)</label>
+        <input type="text" id="first_name" name="first_name" maxlength="30" required>
+		<br>
+		<br>
+			<label for="last_name">Last Name (max 30 characters a-z and A-Z)</label>
+            <input type="text" id="last_name" name="last_name" maxlength="30" required>
+			<br>
+			<br>
+			<label>Date of Birth:</label>
+        <select name="dob_day"required>
+            <option value="">Day</option>
+			</select>
+        <select name="dob_month" id="dob_month">
+            <option value="">month</option>
+        </select>
+        <select name="dob_year"required>
+            <option value="">Year</option>
+        </select>
+         <br>
+		 <br>
+        <label for="email">Email ID</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+		<br>
+        <label for="mobile">Mobile Number (10 digit number)</label>
+        <input type="number" id="mobile" name="mobile" maxlength="10" required>
+			<br>
+			<br>
+			 <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+
+			<br>
+			<br>
+
+			<label for="address">Address:</label>
+            <textarea id="address" name="address" rows="2" required></textarea>
+			<br>
+			<br>
+			<label for="city">City (max 30 characters a-z and A-Z)</label>
+        <input type="text" id="city" name="city" maxlength="30" required>
+        <br>
+		<br>
+        <label for="pincode">Pin Code (6 digit number)</label>
+        <input type="number" id="pincode" name="pincode" maxlength="6" required>
+        <br>
+		<br>
+        <label for="state">State (max 30 characters a-z and A-Z)</label>
+        <input type="text" id="state" name="state" maxlength="30" required>
+        <br>
+		<br>
+        <label for="country">Country</label>
+        <input type="text" id="country" name="country" value="India" readonly>
+			<br>
+			<br>
+			<div class="hobbies">
+            <label>Hobbies</label>
+            <input type="checkbox" id="drawing" name="hobbies" value="drawing">
+            <label for="drawing">Drawing</label>
+            <input type="checkbox" id="singing" name="hobbies" value="singing">
+            <label for="singing">Singing</label>
+            <input type="checkbox" id="dancing" name="hobbies" value="dancing">
+            <label for="dancing">Dancing</label>
+            <input type="checkbox" id="sketching" name="hobbies" value="sketching">
+            <label for="sketching">Sketching</label>
+            <input type="checkbox" id="others" name="hobbies" value="others">
+            <label for="others">Others</label>
+            <input type="text" id="other_hobbies" name="other_hobbies">
+			</div>
+				<br>
+				<br>
+				<label>Qualification</label>
+        <table>
+            <tr>
+                <th>Sl.No.</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text" name="board_10" maxlength="10"></td>
+                <td><input type="text" name="percentage_10" maxlength="5"></td>
+                <td><input type="text" name="year_10" maxlength="4"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" name="board_12" maxlength="10"></td>
+                <td><input type="text" name="percentage_12" maxlength="5"></td>
+                <td><input type="text" name="year_12" maxlength="4"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" name="board_grad" maxlength="10"></td>
+                <td><input type="text" name="percentage_grad" maxlength="5"></td>
+                <td><input type="text" name="year_grad" maxlength="4"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" name="board_masters" maxlength="10"></td>
+                <td><input type="text" name="percentage_masters" maxlength="5"></td>
+                <td><input type="text" name="year_masters" maxlength="4"></td>
+            </tr>
+        </table>
+        <div class="courses">
+            <label>Courses Applied For</label>
+            <input type="checkbox" id="bca" name="courses" value="bca">
+            <label for="bca">BCA</label>
+            <input type="checkbox" id="bcom" name="courses" value="bcom">
+            <label for="bcom">B.Com</label>
+            <input type="checkbox" id="bsc" name="courses" value="bsc">
+            <label for="bsc">B.Sc</label>
+            <input type="checkbox" id="ba" name="courses" value="ba">
+            <label for="ba">B.A</label>
+        </div>
+        
+        <div class="buttons">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
