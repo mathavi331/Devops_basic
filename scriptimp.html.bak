@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+ <button onclick=demo()>
+ <!--click me</button>-->
+ <!-- <script src="script.js"></script>
+ <script src="script2.js"></script>
+ <script>
+ document.write("hi<br>welcome");
+ alert("Abirami");
+ console.log("hello..");
+ </script !-->
+<script>
+ function demo()
+{
+	document.write("hello");
+	}
+
+	function add(a,b)
+	{
+		var c=a+b;
+		document.write(c);
+		}
+//document.write(10+20+"<br/>");
+//document.write("hello"+"world"+"<br/>");
+//document.write("sum="+10+"<br/>");
+//document.write("sum="+10+20+"<br/>");
+//document.write("PI value="+3.142+"<br/>");
+//document.write("sum="+(10+20)+"<br/>");
+ //var age=17;
+ //var name="raju";
+/* document.write("my age is="+age+"<br>");
+ document.write("my name is="+name);
+
+  var temp=prompt("enter your name");
+ document.write("my name="+temp,"<br>");*/
+ /*var a=7;
+ var b=8;
+ if(x<y)
+ {
+	 document.write("true");
+	 }
+
+ document.write(a<b,"<br>");
+ document.write(a>b,"<br>");
+ document.write(a>=b,"<br>");
+ document.write(a<=b,"<br>");
+ document.write(a=b,"<br>");
+ document.write(a!=b,"<br>");
+ document.write(a>b,"<br>");
+ document.write(a==b,"<br>");
+ document.write(a+b,"<br>");
+ document.write(a-b,"<br>");
+ document.write(a*b,"<br>");
+ document.write(a&&b,"<br>");
+ document.write(a||b,"<br>");
+ document.write(a>>b,"<br>");
+ document.write(a<<b,"<br>");
+ document.write(a^b,"<br>");
+ document.write(a++,"<br>");
+ document.write(a--,"<br>");
+ document.write(a<b?"hi":"hello","<br>");
+ boolean=true;
+ document.write(2+3+parseInt('7'));
+ document.write(2+3+parseFloat('7'));
+ document.write(2+3+parseInt('7'+'2'));
+// document.write(2+3+parseInt('7'+parseInt('7'));
+ document.write(Math.ceil(76.92),"<br>");
+ document.write(Math.floor(76.92),"<br>");
+ document.write(Math.random(76.92)+"<br>");*/
+ /*var x=10;
+ var y=20;
+ if(x>y)
+ {
+	 document.write("true");
+  }
+  else
+  {
+	  document.write("false");
+	}*/
+	/*var x=10
+	var y=20;
+	if(x<y)
+	{
+		document.write("true");
+		}
+		else if(x>y)
+		{
+			document.write("false");
+			}
+			else(x==y)
+			{
+				document.write("true");
+				}*/
+
+		/*var mark;
+		mark=36;
+		if(mark>=35)
+		{
+			if(mark>=80)
+			{
+				document.write("leader");
+			}
+			else
+			{
+				document.write("not leader");
+			}
+		}
+		else
+		{
+			document.write("failed");
+			}*/
+			/* let a=9;
+			document.write(a++);
+			document.write(++a);*/
+
+			/*var a=19;
+			document.write(a++);
+			document.write(++a);*/
+
+			/*const a=19;
+			document.write(a++);
+			document.write(++a); not work*/
+
+
+		/*	a=9;
+			document.write(a++);
+			document.write(++a);*/
+
+		/*	var a=10;
+			for(var i=1;i<=10;i++)
+			{
+				document.write(i);
+				} */
+    
+
+	
+	/*	var i=1,n=10;
+		while(i<=n)
+		{
+		document.write("Hello");
+		i++;
+		} */
+
+
+
+	/*	var i=1;
+		do
+		{
+			document.write("mmm");
+		}
+		while (i<=10);
+		i++;
+		*/
+
+	    /*var x=4;
+		switch(x)
+		{
+			case 4:
+			case 1:
+			document.write("hai 1");
+			break;
+			case 2:
+			document.write("hai 2");
+			break;
+			default:
+			document.write("end");
+		}*/
+
+		/*var a;
+		document.write(a);*/
+
+		/*const a;
+		document.write(a);*/
+
+		/*let a;
+		document.write(a);*/
+
+	/*	var a=[4,6,9,8,7];
+		document.write(a);
+		//document.write(a.size);
+		document.write(a.length);
+		//document.write(sum=sum+a[i]);
+		/*for(i=0;i<array.length;i++)
+		{
+			document.write(a);
+			}*/
+
+
+
+		
+
+
+ </script>
+  <h1>welcome</h1>
+ </body>
+</html>
